@@ -14,8 +14,6 @@ import os
 from aixplain.factories import AgentFactory
 from aixplain.modules.agent import ModelTool
 
-os.environ["AIXPLAIN_API_KEY"] = "38af6d325b6f078dc305f2a8564dbeeaa47229ef1f79cdde5352b38f39349b15"
-
 
 class EnhancedMacMonitor:
     def __init__(self, db_path: str = "activity_detailed.db"):
