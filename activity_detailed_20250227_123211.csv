@@ -1,0 +1,6 @@
+timestamp,window_title,application,cpu_percent,memory_percent,battery_percent,is_charging,active_process_count,network_bytes_sent,network_bytes_recv,screen_resolution,idle_time
+2025-02-27T12:31:45.418585,mac_monitor.py — aixplain-monitor,Cursor,4.7,57.4,100.0,1,865,7679320064,4509091840,"0, 0, 1512, 982",0
+2025-02-27T12:31:51.778760,mac_monitor.py — aixplain-monitor,Cursor,4.1,56.2,100.0,1,859,7679342592,4509105152,"0, 0, 1512, 982",0
+2025-02-27T12:31:58.227995,Spotify Premium,Spotify,5.4,56.7,100.0,1,857,7679375360,4509152256,"0, 0, 1512, 982",0
+2025-02-27T12:32:04.585883,Spotify Premium,Spotify,5.4,56.2,100.0,1,857,7679394816,4509180928,"0, 0, 1512, 982",0
+2025-02-27T12:32:10.995538,Spotify Premium,Spotify,14.5,57.0,100.0,1,855,7679460352,4509225984,"0, 0, 1512, 982",0

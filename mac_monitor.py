@@ -13,6 +13,8 @@ import os
 import os
 from aixplain.factories import AgentFactory
 from aixplain.modules.agent import ModelTool
+# Speech Synthesis - English (United States) - Premium - J-MALE on Google
+from aixplain.factories import ModelFactory
 
 
 class EnhancedMacMonitor:
@@ -277,14 +279,28 @@ class EnhancedMacMonitor:
             summary = (tabulate(reports['app_summary'], headers='keys', tablefmt='simple'))
             agent = AgentFactory.create(
                 name="Productivity Analysis Agent",
-                description="You are an agent that analyzes productivity data and give recommendations on how the user can improve productivity and highlight if I am doing unproductive tasks.",
+                description="You are an agent that analyzes productivity data and give recommendations on how the user can improve productivity and highlight if I am doing unproductive tasks. Ignore the CPU and Memory metrics unless they are unusually high.",
                 tools=[
                     # OPEN AI 3.5
                     ModelTool(model="646796796eb56367b25d0751"),
+                    # AWS Speech Synthesis
+                    ModelTool(model="6171eeaec714b775a4b48c19"),
                 ],
             )
             agent_response = agent.run(summary)
             print(agent_response)
+
+            # Access the data directly as it's already a dictionary
+            response_dict = agent_response.data
+
+            # Extract just the main analysis text
+            analysis_text = response_dict['output']
+
+            model = ModelFactory.get("6171eeaec714b775a4b48c19")
+            # Pass only the analysis text to speech synthesis
+            result = model.run({"text": analysis_text})
+
+            print(result)
 
 if __name__ == "__main__":
     monitor = EnhancedMacMonitor()

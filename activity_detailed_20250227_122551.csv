@@ -1,0 +1,6 @@
+timestamp,window_title,application,cpu_percent,memory_percent,battery_percent,is_charging,active_process_count,network_bytes_sent,network_bytes_recv,screen_resolution,idle_time
+2025-02-27T12:25:21.915234,mac_monitor.py — aixplain-monitor,Cursor,3.4,56.0,100.0,1,851,7677249536,4500291584,"0, 0, 1512, 982",0
+2025-02-27T12:25:28.300286,Python | aiXplain - Google Chrome - Win (Work),Google Chrome,6.1,55.6,100.0,1,851,7677255680,4500296704,"0, 0, 1512, 982",0
+2025-02-27T12:25:34.769691,Python | aiXplain - Google Chrome - Win (Work),Google Chrome,11.6,55.7,100.0,1,851,7677266944,4500303872,"0, 0, 1512, 982",0
+2025-02-27T12:25:41.139520,Python | aiXplain - Google Chrome - Win (Work),Google Chrome,2.8,55.4,100.0,1,851,7677276160,4500310016,"0, 0, 1512, 982",0
+2025-02-27T12:25:47.201784,mac_monitor.py — aixplain-monitor,Cursor,10.1,56.0,100.0,1,851,7677290496,4500318208,"0, 0, 1512, 982",0

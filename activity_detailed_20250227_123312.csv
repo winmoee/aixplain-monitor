@@ -1,0 +1,4 @@
+timestamp,window_title,application,cpu_percent,memory_percent,battery_percent,is_charging,active_process_count,network_bytes_sent,network_bytes_recv,screen_resolution,idle_time
+2025-02-27T12:32:57.325738,mac_monitor.py — aixplain-monitor,Cursor,4.9,57.1,100.0,1,855,7679653888,4509464576,"0, 0, 1512, 982",0
+2025-02-27T12:33:03.671842,Extracting Analysis from ModelResponse - Claude - Google Chrome - Win (Work),Google Chrome,4.8,57.6,100.0,1,855,7679688704,4509522944,"0, 0, 1512, 982",0
+2025-02-27T12:33:09.797683,mac_monitor.py — aixplain-monitor,Cursor,4.1,57.6,100.0,1,855,7679780864,4509622272,unknown,0

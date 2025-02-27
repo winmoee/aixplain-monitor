@@ -1,0 +1,5 @@
+timestamp,window_title,application,cpu_percent,memory_percent,battery_percent,is_charging,active_process_count,network_bytes_sent,network_bytes_recv,screen_resolution,idle_time
+2025-02-27T12:28:38.499587,mac_monitor.py — aixplain-monitor,Cursor,1.4,56.6,100.0,1,852,7678215168,4503400448,"0, 0, 1512, 982",0
+2025-02-27T12:28:44.931478,How to build an agent | aiXplain - Google Chrome - Win (Work),Google Chrome,5.4,56.5,100.0,1,850,7678232576,4503419904,"0, 0, 1512, 982",0
+2025-02-27T12:28:51.352007,How to build an agent | aiXplain - Google Chrome - Win (Work),Google Chrome,2.9,56.0,100.0,1,850,7678249984,4503463936,"0, 0, 1512, 982",0
+2025-02-27T12:28:57.801099,How to build an agent | aiXplain - Google Chrome - Win (Work),Google Chrome,11.6,56.5,100.0,1,850,7678256128,4503471104,"0, 0, 1512, 982",0
